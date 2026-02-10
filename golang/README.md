@@ -12,6 +12,6 @@
 
 ## Изучаю
 
-- Context в golang.
-
 ## Изучено
+
+- Context в golang.

@@ -17,3 +17,4 @@
 ## Ссылки на репозитории
 
 [Git](./git/README.md)
+[Golang](./golang/README.md)
