@@ -9,10 +9,9 @@
 [Context в golang](./context.md)
 [JWT в golang](./jwt.md)
 [Refresh token в golang](./refresh.md)
+[Middleware в golang](./middleware.md)
 
 ## В планах
-
-- Middleware
 
 ## Изучаю
 
@@ -22,3 +21,4 @@
 
 - Context в golang.
 - JWT в golang
+- Middleware в golang
