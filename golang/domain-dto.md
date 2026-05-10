@@ -9,9 +9,9 @@
 
 ```go
 type CreateUserResponce struct {
-	ID string `json:"id"`
-	Name string `json:"name"`
-	Email string `json:"email"`
+ID string `json:"id"`
+Name string `json:"name"`
+Email string `json:"email"`
 }
 ```
 
@@ -33,9 +33,9 @@ type CreateUserResponce struct {
 
 ```go
 type User struct {
-	id string
-	name string
-	email string
+id string
+name string
+email string
 }
 ```
 
@@ -47,21 +47,21 @@ type User struct {
 
 ```go
 func New(id, name, email string) (*User, error) {
-	name = strings.TrimSpace(name)
-	email = strings.TrimSpace(email)
+name = strings.TrimSpace(name)
+email = strings.TrimSpace(email)
 
-	if len(name) < 2 {
-		return nil, fmt.Errorf("invalid length name")
-	}
-	if !strings.Contains(email, "@") {
-		return nil, fmt.Errorf("invalid email")
-	}
+if len(name) < 2 {
+  return nil, fmt.Errorf("invalid length name")
+}
+if !strings.Contains(email, "@") {
+  return nil, fmt.Errorf("invalid email")
+}
 
-	return &User{
-		id: id,
-		name: name,
-		email: email,
-	}, nil
+return &User{
+  id: id,
+  name: name,
+  email: email,
+}, nil
 }
 ```
 

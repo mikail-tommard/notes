@@ -10,6 +10,7 @@
 [JWT в golang](./jwt.md)
 [Refresh token в golang](./refresh.md)
 [Middleware в golang](./middleware.md)
+[Отличие Domain и DTO](./domain-dto.md)
 
 ## В планах
 
